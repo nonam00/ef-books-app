@@ -46,7 +46,7 @@ namespace WinFormsLibrarySystemApp
             btnEdit.Enabled = false;
             btnDelete.Enabled = false;
 
-            var admin = (Administrator)lstLibrs.SelectedItem;
+            var admin = (Librarian)lstLibrs.SelectedItem;
             txtLogin.Text = admin.Login;
             txtPassword.Text = admin.Password;
         }
